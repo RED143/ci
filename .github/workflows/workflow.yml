@@ -1,8 +1,8 @@
 name: Check Tests
 on: push
 jobs:
-  my-job:
-    check-tests: ubuntu-latest
+  check-tests:
+    runs-on: ubuntu-latest
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
