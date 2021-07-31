@@ -13,7 +13,7 @@ jobs:
           node-version: "14"
 
       - name: Install dependencies
-        run: npm i
+        run: make install
 
       - name: Start tests
-        run: npx jest tests/root.test.js
+        run: make install
